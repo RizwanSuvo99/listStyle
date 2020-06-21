@@ -1,0 +1,29 @@
+body {
+	font: italic lighter 20px arial;
+	background: #003333;
+	color: white;
+	text-shadow: 4px 4px 4px #330000;
+}
+
+li {
+	list-style: none;
+}
+
+.menu {
+	background: #2ecc71;
+	display: inline-block;
+	text-align: center;
+	margin: 5px 10px;
+	line-height: 40px;
+	width: 40px;
+	height: 40px;
+	-webkit-box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px black;
+}
+ul ul{
+	display: none;
+}
+.sub-menu {
+	background: #673291;
+	border-radius: 50%;
+}

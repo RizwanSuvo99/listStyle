@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>list</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+	<ul>
+		<li><span class="menu">1</span>Learn HTML</li>
+		<li onclick="subDropdown()"><span class="menu">2</span>Create my own web site
+			<ul id="subMenu">
+				<li><span class="menu sub-menu">1</span>Development Articles </li>
+				<li><span class="menu sub-menu">2</span>News and Stuff </li>
+				<li><span class="menu sub-menu">3</span>Funny Cat Pictures </li>
+			</ul>
+		</li>
+		<li><span class="menu">3</span>PROFIT</li>
+		<li><span class="menu">4</span>Create my own web site</li>
+		<li><span class="menu">5</span>PROFIT</li>
+		<li onclick="subDropdown2()"><span class="menu">6</span>Learn HTML
+			<ul id="subMenu2">
+				<li><span class="menu sub-menu">1</span>Development Articles </li>
+				<li><span class="menu sub-menu">2</span>News and Stuff </li>
+				<li><span class="menu sub-menu">3</span>Funny Cat Pictures </li>
+			</ul>
+		</li>
+	</ul>
+	<script src="js/main.js"></script>
+</body>
+</html>
